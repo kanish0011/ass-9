@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Placement Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 5px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .card {
+            background: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .status-stable {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Automated Student Placement Portal</h1>
+        <p>Version 1.0 (Stable Release)</p>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            <!-- Student Profiles & Stats -->
+            <div class="card">
+                <h2>Placement Statistics (Current Year)</h2>
+                <ul>
+                    <li>Total Eligible Students: 500</li>
+                    <li>Students Placed: 420</li>
+                    <li>Highest Package: $45 LPA</li>
+                    <li>Average Package: $8.5 LPA</li>
+                </ul>
+            </div>
+
+            <!-- Recruitment Drives -->
+            <div class="card">
+                <h2>Upcoming Recruitment Drives</h2>
+                <ul>
+                    <li><strong>TechCorp Solutions</strong> - Software Engineer Roles (Eligibility: CGPA > 8.0)</li>
+                    <li><strong>InnoData Inc.</strong> - Data Analyst Roles (Eligibility: CGPA > 7.5)</li>
+                    <li><strong>CloudScale Systems</strong> - Cloud Operations (Eligibility: No active backlogs)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card" style="margin-top:20px;">
+            <h2>System Health Status</h2>
+            <p>Application Status: <span class="status-stable">RUNNING (STABLE)</span></p>
+        </div>
+    </div>
+
+</body>
+</html>
